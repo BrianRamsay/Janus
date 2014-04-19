@@ -1,0 +1,447 @@
+body {
+		width: 80%;
+		margin:auto;
+		min-width: 430px; /* 2* (LC fullwidth + CC padding) + RC fullwidth       */
+		font-family: 'Helvetica Neue Light', HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, sans-serif;
+		font-size: 1.0em;
+		background: url(images/light_cornflower_vertical.png);
+}
+
+h3 {
+		font-size: 1.2em;
+		margin-bottom:0px;
+}
+
+h4 {
+		font-size: 1.1em;
+		margin-bottom:0px;
+}
+
+#background_container {
+		background: url(images/black75.png);
+		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 2px 2px 6px;
+		-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.496094); 
+		box-shadow:2px 2px 6px rgba(0, 0, 0, 0.496094);
+
+		*border: 1px solid #333;
+}
+
+#header {
+		padding: 10px;
+		position:relative;
+}
+
+#content {
+		/* font sizing is done with javascript */
+		margin-left:-4px;
+		background: url(images/light_cornflower_vertical.png);
+		-webkit-box-shadow: inset rgba(0, 0, 0, 0.496094) -4px -1px 4px;
+		-moz-box-shadow: inset -3px -1px 4px rgba(0, 0, 0, 0.496094); 
+		box-shadow:inset -3px -1px 4px rgba(0, 0, 0, 0.496094);
+
+		*border: 1px solid #333;
+		*border-left: 0px solid #333;
+}
+
+#footer-wrapper {
+		width:100%;
+}
+#footer {
+		color: #666;
+		padding: 10px;
+		font-size: .9em;
+}
+
+#banner {
+		padding: 15px;
+		color: white;
+		text-align:center;
+}
+
+#banner a {
+		color:white;
+		text-decoration: none;
+}
+
+#banner .word {
+		font-size: 3.4em;
+		display: block;
+		width: 34%;
+		float: left;
+		text-align: right;
+		padding-top:.2em;
+}
+
+
+#banner .description, #banner .related {
+		width: 64%;
+		float:right;
+		text-align:left;
+		padding-left: 15px;
+}
+
+#banner .part, #banner .pronounce {
+		font-size: 1.3em;
+}
+
+#banner .pronounce, #banner .definition {
+		padding-left: 10px;
+}
+
+#banner .related label {
+		font-size: .9em;
+		text-transform: uppercase;
+		letter-spacing:.1em;
+}
+
+#header h1, h3 {
+	margin:0; /* override the habari blueprint styles */
+}
+
+#content p {
+		text-align:justify;
+}
+
+#header a {
+		text-decoration:none;
+}
+
+#sidebar ul {
+		list-style:none;
+		margin:0px;
+		margin-top: 10px;
+		padding: 0px;
+		padding-left:15px;
+}
+
+#sidebar ul li {
+		margin-top:5px;
+}
+
+#sidebar a {
+		font-size:1.2em;
+		text-decoration:none;
+		color:#bbb;
+}
+
+#sidebar a:hover {
+		color:#eee;
+}
+
+#sidebar .selected a {
+		color:#eee;
+}
+
+#footer a {
+		text-decoration:none;
+		color: black;
+}
+
+#footer .date_span {
+		float:right;
+}
+
+#footer .valid_links {
+		width: 25%;
+		text-align:right;
+}
+
+#footer table {
+		margin:0;
+		margin-top:25px;
+		border-collapse:collapse;
+}
+
+#footer table td {
+		vertical-align:bottom;
+		padding: 0px;
+}
+
+#footer img {
+		position:absolute;
+		width:32px;
+		height:32px;
+		margin-left:-15px;
+}
+
+#center {
+		width: 50%;
+}
+
+#center .zen {
+		width:45%;
+		float:left;
+		text-align:center;
+}
+
+#center .zen dt {
+		margin-top:10px;
+}
+
+.zen span {
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  line-height:1%;
+  padding:0 2px;
+}
+.comment_count {
+		text-align:right;
+}
+
+.post {
+		padding:10px 20px;
+		background: url(images/clear75.png);
+		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 1px 2px 6px;
+		-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094); 
+		box-shadow:1px 2px 6px rgba(0, 0, 0, 0.496094);
+		margin-bottom:15px;
+		*border: 1px solid #333;
+}
+
+.post pre {
+		white-space: pre-wrap;
+		font-size: .9em;
+}
+
+.post table {
+		margin:0;
+}
+
+.post h3 {
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+		overflow:hidden;
+}
+
+.post h3 > a {
+		float:right;
+}
+
+.post > h3:first-child {
+		margin-bottom: 25px;
+}
+
+.post h3 > a:first-child {
+		float:left;
+}
+
+.post img {
+		border: 1px solid #333;
+		padding: 5px;
+		background: #999;
+		display:block;
+		margin:auto;
+}
+
+#content .post .caption p { /* excessive but overrides */
+		margin:0;
+		text-align: center;
+}
+
+.post .caption {
+		font-size:.9em;
+		margin: -3em auto 1.5em auto;
+		width: 500px;
+		padding: 3px 5px;
+}
+
+.excerpt img {
+		width: 20%; /* ie 6 & 7 only know about width apparently */
+		float:right;
+		padding: 2px;
+		margin-left:15px;
+}
+
+.excerpt {
+		margin-bottom:30px;
+}
+
+.excerpt p {
+		margin-bottom:10px;
+}
+
+.post_link {
+		font-size:.9em;
+}
+
+.pager {
+		text-align:center;
+}
+
+#comments {
+		margin-top: 20px;
+		border-top: 1px dashed #333;
+		padding-top: 20px;
+}
+
+#content_header {
+		background: url(images/clear75.png);
+		top:-20px;
+		position:relative;
+		padding: 10px;
+		font-size: .9em;
+
+		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 1px 2px 6px;
+		-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094);
+		box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094);
+
+		-webkit-border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+
+		*border: 1px solid #333;
+		*border-top: 0px solid #333;
+}
+
+#content_header dt {
+		clear:left;
+		float:left;
+		width:125px;
+		font-size: .9em;
+		margin-top: 2px;
+}
+
+#content_header dd {
+		display:inline;
+		font-size: .9em;
+		margin-left: 1em;
+}
+
+#admin_link {
+		color: #aaa;
+		font-size:.8em;
+		position:absolute;
+		right:10px;
+		top:15px;
+}
+
+.feedlink {
+	display:inline;
+	position:absolute;
+	right:51px;
+}
+
+.feed_link {
+  background: url("images/feed.png") center left no-repeat;
+  font-size: .9em;
+  display: block;
+  padding-left: 35px;
+  color: #ffffff;
+  line-height: 34px;
+  border: none;
+}
+
+.feed_link:hover {
+  background: url("images/feed_hover_1.png") center left no-repeat;
+  color: #aaaaaa;
+	text-decoration: none;
+}
+
+#img404 {
+		float:left;	
+		margin-right: 20px;
+		margin-bottom:10px;
+}
+
+.nobreak {
+		white-space: nowrap;
+}
+
+.commentform label {
+		width: 100px;
+		float:left;
+		margin-top:5px;
+}
+
+.commentform .required {
+		position:absolute;
+		left: 525px;
+		font-size: .8em;
+		color: red;
+		padding-top:4px;
+		font-weight:normal;
+}
+#comment_name, #comment_url, #comment_email {
+		width: 250px;
+		font-size:.9em;
+}
+
+#cf_submit input {
+		font-size: 1.0em;
+		width:100px;
+}
+
+#commentlist {
+		clear:both;
+		padding-top:15px;
+}
+
+.comment {
+		border: 1px solid #c7e2e2;
+		background: #eafcfc;
+		padding: 5px;
+		margin-bottom: 10px;
+		vertical-align:top;
+}
+
+.counter {
+		float:right;
+		font-size:2.0em;
+		padding: 0 5px;
+		text-decoration: none;
+}
+
+.comment-meta {
+		border-top: 1px solid #c7e2e2;
+		padding-top:3px;
+		margin-top:5px;
+		clear:both;
+}
+
+/******************************************************************************
+		Page Layout
+******************************************************************************/
+
+#content_container {
+		/*padding-left: 200px;   /* LC width */
+		padding-right: 220px;  /* RC width + CC padding */
+}
+
+#content_container .column {
+		float:left;
+		margin-right:0;
+}
+
+#content {
+		width:100%;
+		padding: 20px 30px 10px 20px;
+}
+
+/* abandoning the one true layout */
+
+#sidebar {
+		position:absolute;
+		*position: inherit;
+		right:130px;
+		width: 160px; 
+}
+
+#footer {
+  clear: both;
+	position: relative;
+}
+
+/*** IE6 Fixes ***/
+* html .left_bar {
+  left: 170px;           /* RC width */
+}
+* html #footer-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+  background: #fff;         /* Same as body 
+                               background */
+}

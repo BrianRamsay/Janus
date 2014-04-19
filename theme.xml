@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="theme">
+  <class>Janus</class>
+	<name>Janus</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	
+	<author url="http://foont.net/">Brian Ramsay</author>
+	
+	<version>0.7</version>
+	<url>http://foont.net/</url>
+	<description><![CDATA[Janus is set up to have multiple blogs run from one admin interfance (with the same settings) but displaying different posts.]]></description>
+	
+	<template_engine>rawphpengine</template_engine>
+
+	<copyright>2009</copyright>
+</pluggable>

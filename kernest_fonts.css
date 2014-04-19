@@ -1,0 +1,20 @@
+/* KERNEST.COM WEB FONT CSS GENERATED FOR USE ON foont.net */
+
+/* 
+Vertrina Bold 
+ 
+ Foundry: Greater Albion Typefounders, http://gatf.wordpress.com/ 
+ Contributors: Paul Lloyd 
+ License: Greater Albion License, http://kernest.com/images/GreaterAlbionLicense.txt 
+*/
+
+@font-face {
+		font-family: 'Vertrina Bold';
+		src: url('fonts/vertrina-bold.eot?') format('eot'), url('fonts/vertrina-bold.ttf') format('truetype'), url('fonts/vertrina-bold.woff') format('woff'), url('fonts/vertrina-bold.svg#vertrina') format('svg'); }
+
+.vertrina-bold {
+ font-family: 'Vertrina Bold';
+ line-height: 140%;
+ text-rendering: optimizeLegibility;
+ /*-webkit-font-smoothing: antialiased;*/
+}
