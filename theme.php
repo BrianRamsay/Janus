@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Janus is a custom Theme class
  *
@@ -12,7 +11,7 @@ class Janus extends Theme
 		public function action_init_theme()
 		{
 				// Creates an excerpt option. echo $post->content_excerpt;
-				Format::apply( 'autop', 'post_content_excerpt' );
+				//Format::apply( 'autop', 'post_content_excerpt' );
 				Format::apply( 'tag_and_list', 'post_tags_out' );
 	 			//Format::apply_with_hook_params( 'more', 'post_content_excerpt', 'more',60, 1 );
 
@@ -137,7 +136,7 @@ class Janus extends Theme
 
 				$excerpt = substr($content, 0, $i + 2);
 				if($i < strlen($content)) {
-						$excerpt .= '...<br /><a class="post_link" href="' . $post->permalink . '" title="' . $post->title . '">More from ' . $post->title_out . '</a>';
+						$excerpt .= '...<br /><a class="post_link" href="' . $post->permalink . '" title="' . $post->title . '">More from "' . $post->title_out . '"</a>';
 				} else {
 						if(substr(trim($excerpt),-4) !== '<br>') {
 								$excerpt = trim($excerpt) . "<br>";
@@ -292,5 +291,3 @@ class Janus extends Theme
 	}
 
 }
-
-?>
