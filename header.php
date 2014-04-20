@@ -14,7 +14,7 @@
 
 		if($feed_tag) { // I don't really know the difference between the two atom links
 ?>
-				<link rel="alternate" type="application/atom+xml" title="Atom" href="<?php $theme->feed_alternate(); ?>">
+				<link rel="alternate" type="application/atom+xml" title="Atom" href="<?=$theme->feed_alternate()?>">
 <?php	
 		} 
 ?>
@@ -24,7 +24,7 @@
 	<link rel="stylesheet" type="text/css"  media="print" href="<?php Site::out_url( 'vendor'); ?>/blueprint/print.css">
 	<link rel="stylesheet" type="text/css" media ="screen" href="<?php Site::out_url( 'vendor'); ?>/blueprint/screen.css">
 	<link rel="Shortcut Icon" href="<?php Site::out_url( 'theme' ); ?>/favicon.ico">
-	<?php $theme->header(); ?>
+	<?=$theme->header()?>
 
 	<!-- Google Analytics init -->
 	<script type="text/javascript">
@@ -41,7 +41,6 @@
 
 		<!--masthead-->
 		<div id="header">
-		<a id='admin_link' href="/admin">Admin</a>
 
 <?php if($feed_tag) { ?>
 				<div class="feedlink"><a class='feed_link' href="<?php URL::out( 'atom_feed_tag', array( 'tag' => $feed_tag ) ); ?>">&nbsp;</a></div>

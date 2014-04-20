@@ -17,7 +17,7 @@
 						<br />
 						<span class='date_span'><?=date('l, F jS', strtotime('-3 hours'))?></span>
 						<br />
-						<span> Created by Brian Ramsay</span>
+						<span> Created by <a href="/admin">Brian Ramsay</a></span>
 				</td>
 		</tr></table>
 	</div>
@@ -25,7 +25,7 @@
 
 </div> <!-- end background container -->
 
-<?php $theme->footer(); ?>
+<?php echo $theme->footer(); ?>
 <script type='text/javascript'>
 		$(window).addEvent('domready', function() {
 				blog_init();

@@ -1,5 +1,4 @@
 <?php
-define( 'THEME_CLASS', 'Janus' );
 
 
 /**
@@ -174,14 +173,14 @@ class Janus extends Theme
 		public function get_pithy_statement()
 		{
 ?>
-						<div class='zen'>
-								<dt>less <span>consumption</span></dt><dd>more <span>creation</span></dd>
-								<dt>less <span>sitting</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt><dd>more <span>exercise</span></dd>
-						</div>
-						<div class='zen'>
-								<dt>less <span>distraction</span></dt><dd>more <span>growth</span></dd>
-								<dt>less <span>commitment</span></dt><dd>more <span>time</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dd>
-						</div>
+			<div class='zen'>
+					<dt>less <span>consumption</span></dt><dd>more <span>creation</span></dd>
+					<dt>less <span>sitting</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt><dd>more <span>exercise</span></dd>
+			</div>
+			<div class='zen'>
+					<dt>less <span>distraction</span></dt><dd>more <span>growth</span></dd>
+					<dt>less <span>commitment</span></dt><dd>more <span>time</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dd>
+			</div>
 <?php
 		}
 

@@ -1,7 +1,7 @@
 
 function blog_init() {
 		add_events();
-		//setTextMeasure(document.getElementById('content_container'));
+		setTextMeasure(document.getElementById('content_container'));
 		Hyphenator.run();
 
 		$(window).fireEvent('resize');
@@ -9,6 +9,7 @@ function blog_init() {
 
 function add_events() {
 		// we want to line up the stripey background
+		/*
 		$(window).addEvent('resize', function() {
 				var window_size = $(window).getSize();
 				var body_size = $('background_container').getSize();
@@ -18,6 +19,7 @@ function add_events() {
 				partial_bar += 2;
 				$('content').setStyle('background-position', (-1 * partial_bar) + 'px 0px');
 		});
+		*/
 
 		// hide the comment box and let the comment count link reveal it
 		// but only if they aren't on a comment anchor already

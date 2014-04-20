@@ -4,7 +4,6 @@ body {
 		min-width: 430px; /* 2* (LC fullwidth + CC padding) + RC fullwidth       */
 		font-family: 'Helvetica Neue Light', HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, sans-serif;
 		font-size: 1.0em;
-		background: url(images/light_cornflower_vertical.png);
 }
 
 h3 {
@@ -18,12 +17,7 @@ h4 {
 }
 
 #background_container {
-		background: url(images/black75.png);
-		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 2px 2px 6px;
-		-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.496094); 
-		box-shadow:2px 2px 6px rgba(0, 0, 0, 0.496094);
-
-		*border: 1px solid #333;
+		background: white;
 }
 
 #header {
@@ -34,13 +28,7 @@ h4 {
 #content {
 		/* font sizing is done with javascript */
 		margin-left:-4px;
-		background: url(images/light_cornflower_vertical.png);
-		-webkit-box-shadow: inset rgba(0, 0, 0, 0.496094) -4px -1px 4px;
-		-moz-box-shadow: inset -3px -1px 4px rgba(0, 0, 0, 0.496094); 
-		box-shadow:inset -3px -1px 4px rgba(0, 0, 0, 0.496094);
-
-		*border: 1px solid #333;
-		*border-left: 0px solid #333;
+		background: white;
 }
 
 #footer-wrapper {
@@ -54,12 +42,12 @@ h4 {
 
 #banner {
 		padding: 15px;
-		color: white;
+		color: #333;
 		text-align:center;
 }
 
 #banner a {
-		color:white;
+		color:#333;
 		text-decoration: none;
 }
 
@@ -121,15 +109,15 @@ h4 {
 #sidebar a {
 		font-size:1.2em;
 		text-decoration:none;
-		color:#bbb;
+		color:#999;
 }
 
 #sidebar a:hover {
-		color:#eee;
+		color:#333;
 }
 
 #sidebar .selected a {
-		color:#eee;
+		color:#333;
 }
 
 #footer a {
@@ -188,14 +176,22 @@ h4 {
 		text-align:right;
 }
 
+.post_header .post_title {
+	font-size: 1.8em;
+	color: #333;
+	text-decoration:none;
+}
+
+.post_header .post_edit {
+	color: #333;
+	float:right;
+	margin-top:15px;
+}
+
 .post {
 		padding:10px 20px;
-		background: url(images/clear75.png);
-		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 1px 2px 6px;
-		-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094); 
-		box-shadow:1px 2px 6px rgba(0, 0, 0, 0.496094);
+		background: white;
 		margin-bottom:15px;
-		*border: 1px solid #333;
 }
 
 .post pre {
@@ -213,22 +209,10 @@ h4 {
 		overflow:hidden;
 }
 
-.post h3 > a {
-		float:right;
-}
-
-.post > h3:first-child {
-		margin-bottom: 25px;
-}
-
-.post h3 > a:first-child {
-		float:left;
-}
-
 .post img {
 		border: 1px solid #333;
-		padding: 5px;
-		background: #999;
+		padding: 3px;
+		background: #777;
 		display:block;
 		margin:auto;
 }
@@ -275,25 +259,10 @@ h4 {
 }
 
 #content_header {
-		background: url(images/clear75.png);
+		background: white;
 		top:-20px;
 		position:relative;
 		padding: 10px;
-		font-size: .9em;
-
-		-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 1px 2px 6px;
-		-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094);
-		box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.496094);
-
-		-webkit-border-bottom-right-radius: 5px;
-		-webkit-border-bottom-left-radius: 5px;
-		-moz-border-radius-bottomright: 5px;
-		-moz-border-radius-bottomleft: 5px;
-		border-bottom-right-radius: 5px;
-		border-bottom-left-radius: 5px;
-
-		*border: 1px solid #333;
-		*border-top: 0px solid #333;
 }
 
 #content_header dt {
@@ -310,18 +279,10 @@ h4 {
 		margin-left: 1em;
 }
 
-#admin_link {
-		color: #aaa;
-		font-size:.8em;
-		position:absolute;
-		right:10px;
-		top:15px;
-}
-
 .feedlink {
 	display:inline;
 	position:absolute;
-	right:51px;
+	right:5px;
 }
 
 .feed_link {
@@ -442,6 +403,5 @@ h4 {
   float: left;
   position: relative;
   width: 100%;
-  background: #fff;         /* Same as body 
-                               background */
+  background: #fff;         /* Same as body background */
 }
